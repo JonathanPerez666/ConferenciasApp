@@ -49,10 +49,10 @@
                 </RelativeLayout>
 
                 <androidx.cardview.widget.CardView
+                    android:cardElevation="1dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="4dp"
-                    android:cardElevation="1dp"
                     android:layout_margin="15dp">
                     <LinearLayout
                         android:layout_width="match_parent"

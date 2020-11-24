@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2891719050",
+    "firebase_url": "https://platziconf-7e6d9.firebaseio.com",
+    "project_id": "platziconf-7e6d9",
+    "storage_bucket": "platziconf-7e6d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2891719050:android:0888549e31c7b087d3e873",
+        "android_client_info": {
+          "package_name": "com.platzi.conferenciasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2891719050-3ds74m05susv926de49q0sarnea5iq49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.platzi.conferenciasapp",
+            "certificate_hash": "89b135e5344e36d3be67f0509ba237701af0a783"
+          }
+        },
+        {
+          "client_id": "2891719050-q85ad33bq2abd1rqmhbl2b07ia4dje67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADHlcvbSybgOb_Y_HLSPzgjk0LHJA2P44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2891719050-q85ad33bq2abd1rqmhbl2b07ia4dje67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
