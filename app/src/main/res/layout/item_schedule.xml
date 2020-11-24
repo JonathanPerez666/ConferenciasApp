@@ -14,7 +14,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/twItemScheduleHour"
+                android:id="@+id/tvItemScheduleHour"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="00:00"
@@ -23,7 +23,7 @@
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold"/>
             <TextView
-                android:id="@+id/twItemScheduleAMPM"
+                android:id="@+id/tvItemScheduleAMPM"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="AM"
@@ -48,7 +48,7 @@
                 android:ellipsize="end"
                 android:lines="1"/>
             <TextView
-                android:id="@+id/ivItemScheduleConferenceSpeaker"
+                android:id="@+id/tvItemScheduleConferenceSpeaker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Speaker name"
