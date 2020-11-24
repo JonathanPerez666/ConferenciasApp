@@ -28,7 +28,7 @@
                    <ImageView
                        android:layout_width="match_parent"
                        android:layout_height="@dimen/altoImageViewHome"
-                       android:src="@drawable/platzi_conf_2"/>
+                       android:src="@drawable/banner_platzi_conf"/>
                <View
                    android:layout_width="match_parent"
                    android:layout_height="1dp"
