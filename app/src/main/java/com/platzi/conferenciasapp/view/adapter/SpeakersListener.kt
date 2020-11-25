@@ -1,8 +1,7 @@
 package com.platzi.conferenciasapp.view.adapter
 
-import android.telecom.Conference
-import java.text.FieldPosition
+import com.platzi.conferenciasapp.model.Speaker
 
 interface SpeakersListener {
-    fun onConferenceClicked( speaker: SpeakersAdapter, position: Int )
+    fun onSpeakersClicked( speaker: Speaker, position: Int )
 }

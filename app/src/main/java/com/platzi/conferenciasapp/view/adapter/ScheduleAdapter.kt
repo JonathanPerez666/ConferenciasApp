@@ -1,9 +1,7 @@
 package com.platzi.conferenciasapp.view.adapter
 import android.view.LayoutInflater
-import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
-import android.widget.CalendarView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.platzi.conferenciasapp.model.Conference
@@ -12,7 +10,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 
-class ScheduleAdapter(val scheduleListener: ScheduleListener) : RecyclerView.Adapter<ScheduleAdapter.ViewHolder>(){
+class ScheduleAdapter(val ScheduleListener: ScheduleListener) : RecyclerView.Adapter<ScheduleAdapter.ViewHolder>(){
 
     var listConference = ArrayList<Conference>()
 
@@ -37,6 +35,9 @@ class ScheduleAdapter(val scheduleListener: ScheduleListener) : RecyclerView.Ada
         holder.tvConferenceHour.text = hourFormat
         holder.tvConferenceAMPM.text = simpleDateFormatAMPM.format(conference.datetime).toUpperCase()
 
+        holder.itemView.setOnClickListener{
+            ScheduleListener.onConferenceClicked(conference, position)
+        }
     }
 
     fun updateData(data: List<Conference>) {
