@@ -37,7 +37,7 @@
                         android:background="@color/colorPrimary"
                         android:alpha="0.5"/>
                     <TextView
-                        android:id="@+id/twItemScheduleHour"
+                        android:id="@+id/twItemScheduleTituloComferencia"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Título de la conferencia"
