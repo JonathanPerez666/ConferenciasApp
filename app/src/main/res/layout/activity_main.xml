@@ -28,10 +28,10 @@
 
         <fragment
             android:id="@+id/fragContent"
-            android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/bnvMenu"
+            android:name="androidx.navigation.fragment.NavHostFragment"
             app:navGraph="@navigation/nav_graph"
             app:defaultNavHost="true"/>
 
