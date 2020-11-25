@@ -7,8 +7,8 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/tollbarMain"
+        <Toolbar
+            android:id="@+id/toolbarMain"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -17,7 +17,7 @@
                 android:layout_height="@dimen/toolbarAlto"
                 android:src="@drawable/logo_platzi_conf" />
 
-        </androidx.appcompat.widget.Toolbar>
+        </Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -28,6 +28,7 @@
 
         <fragment
             android:id="@+id/fragContent"
+            android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/bnvMenu"
